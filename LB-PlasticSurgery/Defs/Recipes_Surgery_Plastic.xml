@@ -4,7 +4,7 @@
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>RebuildJaw</defName>
     <label>rebuild jaw</label>
-    <description>Plastic surgery to reconstruct a jaw that is shattered, destroyed, or otherwise missing. This reverses the associated difficulties with eating and talking. Plasteel is used as a replacement for cartilage and bone. Due to the nature of the surgery, industrial medicine or better is required.</description>
+    <description>Plastic surgery to reconstruct a jaw that is shattered, destroyed, or otherwise missing. This reverses the associated difficulties with eating and talking. Plasteel is used as a replacement for damaged or absent bone and enamel. Due to the nature of the surgery, industrial medicine or better is required.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Rebuilding jaw.</jobString>
     <workAmount>2000</workAmount>
@@ -48,7 +48,7 @@
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>RebuildNose</defName>
     <label>rebuild nose</label>
-    <description>Plastic surgery to reconstruct a nose that is shattered, destroyed, or otherwise missing. This reverses the associated disfigurement. Plasteel is used as a replacement for cartilage and bone. Due to the nature of the surgery, industrial medicine or better is required.</description>
+    <description>Plastic surgery to reconstruct a nose that is shattered, destroyed, or otherwise missing. This reverses the associated disfigurement. Plasteel is used as a replacement for damaged or absent cartilage. Due to the nature of the surgery, industrial medicine or better is required.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Rebuilding nose.</jobString>
     <workAmount>1500</workAmount>
@@ -119,6 +119,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -151,6 +155,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -183,6 +191,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -215,6 +227,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -247,6 +263,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -279,6 +299,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -311,6 +335,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -343,6 +371,10 @@
         <li>MedicineIndustrial</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
   </RecipeDef>
 
 </Defs>
