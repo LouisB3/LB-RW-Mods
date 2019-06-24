@@ -13,6 +13,7 @@
            <li>ReviseScarStab</li>
            <li>ReviseScarShred</li>
            <li>ReviseScarFrostbite</li>
+           <li>ReviseScarGunshot</li>
         </value>
   </Operation>
 </Patch>

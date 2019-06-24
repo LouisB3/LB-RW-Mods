@@ -377,4 +377,40 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>ReviseScarGunshot</defName>
+    <label>revise scar [gunshot]</label>
+    <description>Plastic surgery to remove scar tissue, replacing it with healthy tissue. This reverses the associated pain. Due to the nature of the surgery, glitterworld medicine is required.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Revising scar.</jobString>
+    <workAmount>1500</workAmount>
+    <removesHediff>Gunshot</removesHediff>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+        <li>MedicineIndustrial</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
 </Defs>
