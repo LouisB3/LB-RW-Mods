@@ -1,6 +1,6 @@
 # LB-RW-Mods
 
-=== LB-PlasticSurgery ===
+### LB-PlasticSurgery
 
 A lightweight mod providing additional surgeries to reverse minor chronic injuries that would otherwise be difficult or impossible to treat.
 
