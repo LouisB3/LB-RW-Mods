@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Inspire Self</name>
+	<author>LouisB3</author>
+	<url>https://github.com/LouisB3/LB-RW-Mods</url>
+	<supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+	<description>Makes Word of Inspiration psycast able to target the caster.</description>
+</ModMetaData>

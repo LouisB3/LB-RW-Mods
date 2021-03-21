@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Emu Nerf</name>
+	<author>LouisB3</author>
+	<url>https://github.com/LouisB3/LB-RW-Mods</url>
+	<supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+	<description>Reduces the chance of emus turning manhunter upon being attacked.</description>
+</ModMetaData>

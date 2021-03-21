@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/AbilityDef[defName="WordOfInspiration"]/verbProperties/targetParams</xpath>
+    <value>
+      <canTargetSelf>True</canTargetSelf>
+    </value>
+  </Operation>
+</Patch>
