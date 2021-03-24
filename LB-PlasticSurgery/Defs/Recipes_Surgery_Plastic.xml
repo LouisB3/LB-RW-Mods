@@ -413,4 +413,46 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>RemoveCataract</defName>
+    <label>remove cataract</label>
+    <description>Ophthamological surgery to remove the opacified lens of an eye. This reverses the associated impairment to eyesight. Plasteel is used to craft a replacement intraocular lens. Due to the nature of the surgery, industrial medicine or better is required.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing cataract.</jobString>
+    <workAmount>1000</workAmount>
+    <removesHediff>Cataract</removesHediff>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+         <filter>
+           <thingDefs>
+             <li>Plasteel</li>
+           </thingDefs>
+         </filter>
+         <count>5</count>
+       </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
 </Defs>

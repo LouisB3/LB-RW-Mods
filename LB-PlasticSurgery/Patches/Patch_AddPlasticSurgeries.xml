@@ -14,6 +14,7 @@
            <li>ReviseScarShred</li>
            <li>ReviseScarFrostbite</li>
            <li>ReviseScarGunshot</li>
+           <li>RemoveCataract</li>
         </value>
   </Operation>
 </Patch>
