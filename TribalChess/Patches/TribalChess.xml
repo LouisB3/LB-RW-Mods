@@ -6,4 +6,12 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="HorseshoesPin"]/minTechLevelToBuild</xpath>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HorseshoesPin"]</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>ComplexFurniture</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
 </Patch>
