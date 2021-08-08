@@ -4,17 +4,6 @@
         <xpath>Defs/ThingDef[defName="Human"]/recipes</xpath>
         <value>
            <li>RebuildJaw</li>
-           <li>RebuildNose</li>
-           <li>ReviseScarBurn</li>
-           <li>ReviseScarCrush</li>
-           <li>ReviseScarCut</li>
-           <li>ReviseScarScratch</li>
-           <li>ReviseScarBite</li>
-           <li>ReviseScarStab</li>
-           <li>ReviseScarShred</li>
-           <li>ReviseScarFrostbite</li>
-           <li>ReviseScarGunshot</li>
-           <li>RemoveCataract</li>
         </value>
   </Operation>
 </Patch>
