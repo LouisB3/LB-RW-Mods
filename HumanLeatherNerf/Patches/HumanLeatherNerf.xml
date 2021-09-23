@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Leather_Human"]/statBases/MarketValue</xpath>
     <value>
-      <MarketValue>1.9</MarketValue>
+      <MarketValue>1.5</MarketValue>
     </value>
   </Operation>
 </Patch>
