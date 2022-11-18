@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Faction Xenotypes</name>
+	<author>LouisB3</author>
+	<url>https://github.com/LouisB3/LB-RW-Mods</url>
+	<supportedVersions>
+		<li>1.4</li>
+  </supportedVersions>
+	<description>Adjusts the xenotype demographics for several factions to ensure that baseliners and other variants can be found among raiders.</description>
+	<modDependencies>
+	  <li>
+	    <packageId>Ludeon.RimWorld.Biotech</packageId>
+	    <displayName>Biotech</displayName>
+	  </li>
+  </modDependencies>
+</ModMetaData>

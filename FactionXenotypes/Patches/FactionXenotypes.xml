@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Pirate"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet>
+        <xenotypeChances>
+          <Dirtmole>0.1</Dirtmole>
+          <Hussar>0.1</Hussar>
+          <Waster>0.15</Waster>
+          <Pigskin>0.1</Pigskin>
+          <Neanderthal>0.05</Neanderthal>
+          <Impid>0.05</Impid>
+          <Genie>0.1</Genie>
+          <Yttakin>0.15</Yttakin>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Neanderthal>0.1</Neanderthal>
+          <Impid>0.7</Impid>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="TribeRoughNeanderthal"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Neanderthal>0.7</Neanderthal>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="OutlanderRoughPig"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.05</Dirtmole>
+          <Hussar>0.05</Hussar>
+          <Pigskin>0.7</Pigskin>
+          <Genie>0.05</Genie>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+</Patch>
