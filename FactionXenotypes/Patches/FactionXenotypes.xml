@@ -43,6 +43,21 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="OutlanderRough"]</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.05</Dirtmole>
+          <Hussar>0.05</Hussar>
+          <Pigskin>0.1</Pigskin>
+          <Genie>0.05</Genie>
+          <Neanderthal>0.05</Neanderthal>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet</xpath>
     <value>
