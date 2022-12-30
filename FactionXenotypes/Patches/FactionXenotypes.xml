@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="Pirate"]/xenotypeSet</xpath>
     <value>
@@ -17,6 +18,31 @@
       </xenotypeSet>
     </value>
   </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="TribeSavage"]</xpath>
+    <value>
+      <xenotypeSet>
+        <xenotypeChances>
+          <Neanderthal>0.1</Neanderthal>
+          <Impid>0.2</Impid>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="TribeRough"]</xpath>
+    <value>
+      <xenotypeSet>
+        <xenotypeChances>
+          <Neanderthal>0.2</Neanderthal>
+          <Impid>0.1</Impid>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet</xpath>
     <value>
@@ -28,6 +54,7 @@
       </xenotypeSet>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="TribeRoughNeanderthal"]/xenotypeSet</xpath>
     <value>
@@ -38,6 +65,7 @@
       </xenotypeSet>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="OutlanderRoughPig"]/xenotypeSet</xpath>
     <value>
@@ -51,4 +79,75 @@
       </xenotypeSet>
     </value>
   </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="PirateYttakin"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.05</Dirtmole>
+          <Hussar>0.05</Hussar>
+          <Waster>0.05</Waster>
+          <Pigskin>0.05</Pigskin>
+          <Neanderthal>0.05</Neanderthal>
+          <Impid>0.05</Impid>
+          <Genie>0.05</Genie>
+          <Yttakin>0.5</Yttakin>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="PirateWaster"]/xenotypeSet</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.05</Dirtmole>
+          <Hussar>0.05</Hussar>
+          <Waster>0.5</Waster>
+          <Pigskin>0.05</Pigskin>
+          <Neanderthal>0.05</Neanderthal>
+          <Impid>0.05</Impid>
+          <Genie>0.05</Genie>
+          <Yttakin>0.05</Yttakin>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="CannibalPirate"]</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.1</Dirtmole>
+          <Hussar>0.1</Hussar>
+          <Waster>0.15</Waster>
+          <Pigskin>0.1</Pigskin>
+          <Neanderthal>0.05</Neanderthal>
+          <Impid>0.05</Impid>
+          <Genie>0.1</Genie>
+          <Yttakin>0.15</Yttakin>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="TribeCannibal"]</xpath>
+    <value>
+      <xenotypeSet Inherit="False">
+        <xenotypeChances>
+          <Dirtmole>0.05</Dirtmole>
+          <Waster>0.05</Waster>
+          <Pigskin>0.05</Pigskin>
+          <Neanderthal>0.15</Neanderthal>
+          <Impid>0.15</Impid>
+          <Yttakin>0.05</Yttakin>
+        </xenotypeChances>
+      </xenotypeSet>
+    </value>
+  </Operation>
+
 </Patch>
