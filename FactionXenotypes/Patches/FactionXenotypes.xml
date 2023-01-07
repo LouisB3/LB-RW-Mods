@@ -6,14 +6,14 @@
     <value>
       <xenotypeSet>
         <xenotypeChances>
-          <Dirtmole>0.1</Dirtmole>
-          <Hussar>0.1</Hussar>
-          <Waster>0.15</Waster>
-          <Pigskin>0.1</Pigskin>
+          <Dirtmole>0.05</Dirtmole>
+          <Hussar>0.05</Hussar>
+          <Waster>0.1</Waster>
+          <Pigskin>0.05</Pigskin>
           <Neanderthal>0.05</Neanderthal>
           <Impid>0.05</Impid>
-          <Genie>0.1</Genie>
-          <Yttakin>0.15</Yttakin>
+          <Genie>0.05</Genie>
+          <Yttakin>0.1</Yttakin>
         </xenotypeChances>
       </xenotypeSet>
     </value>
@@ -36,8 +36,7 @@
     <value>
       <xenotypeSet>
         <xenotypeChances>
-          <Neanderthal>0.2</Neanderthal>
-          <Impid>0.1</Impid>
+          <Neanderthal>0.3</Neanderthal>
         </xenotypeChances>
       </xenotypeSet>
     </value>
@@ -88,6 +87,7 @@
         <xenotypeChances>
           <Dirtmole>0.05</Dirtmole>
           <Hussar>0.05</Hussar>
+          <Neanderthal>0.05</Neanderthal>
           <Pigskin>0.7</Pigskin>
           <Genie>0.05</Genie>
         </xenotypeChances>
