@@ -33,4 +33,17 @@
         </skillNeedFactors>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[defName="CookSpeed"]/postProcessCurve</xpath>
+    <value>
+      <postProcessCurve>
+        <points>
+          <li>(-20, 0.01)</li>
+          <li>(0, 0.4)</li>
+          <li>(20, 1.6)</li>
+          <li>(200, 16)</li>
+        </points>
+      </postProcessCurve>
+    </value>
+  </Operation>
 </Patch>
